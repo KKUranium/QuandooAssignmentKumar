@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B0480E91F28FD39006F2F96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0480E81F28FD39006F2F96 /* AppDelegate.swift */; };
+		6B0480EB1F28FD39006F2F96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0480EA1F28FD39006F2F96 /* ViewController.swift */; };
+		6B0480EE1F28FD39006F2F96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B0480EC1F28FD39006F2F96 /* Main.storyboard */; };
+		6B0480F01F28FD39006F2F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B0480EF1F28FD39006F2F96 /* Assets.xcassets */; };
+		6B0480F31F28FD39006F2F96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B0480F11F28FD39006F2F96 /* LaunchScreen.storyboard */; };
+		6B0480FE1F28FD39006F2F96 /* QuandooAssignmentKumarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0480FD1F28FD39006F2F96 /* QuandooAssignmentKumarTests.swift */; };
+		6B0481091F28FD39006F2F96 /* QuandooAssignmentKumarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0481081F28FD39006F2F96 /* QuandooAssignmentKumarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B0480FA1F28FD39006F2F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B0480DD1F28FD39006F2F96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B0480E41F28FD39006F2F96;
+			remoteInfo = QuandooAssignmentKumar;
+		};
+		6B0481051F28FD39006F2F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B0480DD1F28FD39006F2F96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B0480E41F28FD39006F2F96;
+			remoteInfo = QuandooAssignmentKumar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B0480E51F28FD39006F2F96 /* QuandooAssignmentKumar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuandooAssignmentKumar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0480E81F28FD39006F2F96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B0480EA1F28FD39006F2F96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B0480ED1F28FD39006F2F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B0480EF1F28FD39006F2F96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B0480F21F28FD39006F2F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B0480F41F28FD39006F2F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B0480F91F28FD39006F2F96 /* QuandooAssignmentKumarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuandooAssignmentKumarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0480FD1F28FD39006F2F96 /* QuandooAssignmentKumarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuandooAssignmentKumarTests.swift; sourceTree = "<group>"; };
+		6B0480FF1F28FD39006F2F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B0481041F28FD39006F2F96 /* QuandooAssignmentKumarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuandooAssignmentKumarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0481081F28FD39006F2F96 /* QuandooAssignmentKumarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuandooAssignmentKumarUITests.swift; sourceTree = "<group>"; };
+		6B04810A1F28FD39006F2F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B0480E21F28FD39006F2F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0480F61F28FD39006F2F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0481011F28FD39006F2F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B0480DC1F28FD39006F2F96 = {
+			isa = PBXGroup;
+			children = (
+				6B0480E71F28FD39006F2F96 /* QuandooAssignmentKumar */,
+				6B0480FC1F28FD39006F2F96 /* QuandooAssignmentKumarTests */,
+				6B0481071F28FD39006F2F96 /* QuandooAssignmentKumarUITests */,
+				6B0480E61F28FD39006F2F96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B0480E61F28FD39006F2F96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B0480E51F28FD39006F2F96 /* QuandooAssignmentKumar.app */,
+				6B0480F91F28FD39006F2F96 /* QuandooAssignmentKumarTests.xctest */,
+				6B0481041F28FD39006F2F96 /* QuandooAssignmentKumarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B0480E71F28FD39006F2F96 /* QuandooAssignmentKumar */ = {
+			isa = PBXGroup;
+			children = (
+				6B0480E81F28FD39006F2F96 /* AppDelegate.swift */,
+				6B0480EA1F28FD39006F2F96 /* ViewController.swift */,
+				6B0480EC1F28FD39006F2F96 /* Main.storyboard */,
+				6B0480EF1F28FD39006F2F96 /* Assets.xcassets */,
+				6B0480F11F28FD39006F2F96 /* LaunchScreen.storyboard */,
+				6B0480F41F28FD39006F2F96 /* Info.plist */,
+			);
+			path = QuandooAssignmentKumar;
+			sourceTree = "<group>";
+		};
+		6B0480FC1F28FD39006F2F96 /* QuandooAssignmentKumarTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B0480FD1F28FD39006F2F96 /* QuandooAssignmentKumarTests.swift */,
+				6B0480FF1F28FD39006F2F96 /* Info.plist */,
+			);
+			path = QuandooAssignmentKumarTests;
+			sourceTree = "<group>";
+		};
+		6B0481071F28FD39006F2F96 /* QuandooAssignmentKumarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B0481081F28FD39006F2F96 /* QuandooAssignmentKumarUITests.swift */,
+				6B04810A1F28FD39006F2F96 /* Info.plist */,
+			);
+			path = QuandooAssignmentKumarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B0480E41F28FD39006F2F96 /* QuandooAssignmentKumar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B04810D1F28FD39006F2F96 /* Build configuration list for PBXNativeTarget "QuandooAssignmentKumar" */;
+			buildPhases = (
+				6B0480E11F28FD39006F2F96 /* Sources */,
+				6B0480E21F28FD39006F2F96 /* Frameworks */,
+				6B0480E31F28FD39006F2F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuandooAssignmentKumar;
+			productName = QuandooAssignmentKumar;
+			productReference = 6B0480E51F28FD39006F2F96 /* QuandooAssignmentKumar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B0480F81F28FD39006F2F96 /* QuandooAssignmentKumarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B0481101F28FD39006F2F96 /* Build configuration list for PBXNativeTarget "QuandooAssignmentKumarTests" */;
+			buildPhases = (
+				6B0480F51F28FD39006F2F96 /* Sources */,
+				6B0480F61F28FD39006F2F96 /* Frameworks */,
+				6B0480F71F28FD39006F2F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B0480FB1F28FD39006F2F96 /* PBXTargetDependency */,
+			);
+			name = QuandooAssignmentKumarTests;
+			productName = QuandooAssignmentKumarTests;
+			productReference = 6B0480F91F28FD39006F2F96 /* QuandooAssignmentKumarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B0481031F28FD39006F2F96 /* QuandooAssignmentKumarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B0481131F28FD39006F2F96 /* Build configuration list for PBXNativeTarget "QuandooAssignmentKumarUITests" */;
+			buildPhases = (
+				6B0481001F28FD39006F2F96 /* Sources */,
+				6B0481011F28FD39006F2F96 /* Frameworks */,
+				6B0481021F28FD39006F2F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B0481061F28FD39006F2F96 /* PBXTargetDependency */,
+			);
+			name = QuandooAssignmentKumarUITests;
+			productName = QuandooAssignmentKumarUITests;
+			productReference = 6B0481041F28FD39006F2F96 /* QuandooAssignmentKumarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B0480DD1F28FD39006F2F96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Krishna Kumar";
+				TargetAttributes = {
+					6B0480E41F28FD39006F2F96 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9TC87VC89Y;
+						ProvisioningStyle = Automatic;
+					};
+					6B0480F81F28FD39006F2F96 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9TC87VC89Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6B0480E41F28FD39006F2F96;
+					};
+					6B0481031F28FD39006F2F96 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9TC87VC89Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6B0480E41F28FD39006F2F96;
+					};
+				};
+			};
+			buildConfigurationList = 6B0480E01F28FD39006F2F96 /* Build configuration list for PBXProject "QuandooAssignmentKumar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B0480DC1F28FD39006F2F96;
+			productRefGroup = 6B0480E61F28FD39006F2F96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B0480E41F28FD39006F2F96 /* QuandooAssignmentKumar */,
+				6B0480F81F28FD39006F2F96 /* QuandooAssignmentKumarTests */,
+				6B0481031F28FD39006F2F96 /* QuandooAssignmentKumarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B0480E31F28FD39006F2F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0480F31F28FD39006F2F96 /* LaunchScreen.storyboard in Resources */,
+				6B0480F01F28FD39006F2F96 /* Assets.xcassets in Resources */,
+				6B0480EE1F28FD39006F2F96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0480F71F28FD39006F2F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0481021F28FD39006F2F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B0480E11F28FD39006F2F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0480EB1F28FD39006F2F96 /* ViewController.swift in Sources */,
+				6B0480E91F28FD39006F2F96 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0480F51F28FD39006F2F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0480FE1F28FD39006F2F96 /* QuandooAssignmentKumarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0481001F28FD39006F2F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0481091F28FD39006F2F96 /* QuandooAssignmentKumarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B0480FB1F28FD39006F2F96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B0480E41F28FD39006F2F96 /* QuandooAssignmentKumar */;
+			targetProxy = 6B0480FA1F28FD39006F2F96 /* PBXContainerItemProxy */;
+		};
+		6B0481061F28FD39006F2F96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B0480E41F28FD39006F2F96 /* QuandooAssignmentKumar */;
+			targetProxy = 6B0481051F28FD39006F2F96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B0480EC1F28FD39006F2F96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B0480ED1F28FD39006F2F96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B0480F11F28FD39006F2F96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B0480F21F28FD39006F2F96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B04810B1F28FD39006F2F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B04810C1F28FD39006F2F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B04810E1F28FD39006F2F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9TC87VC89Y;
+				INFOPLIST_FILE = QuandooAssignmentKumar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krish.QuandooAssignmentKumar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6B04810F1F28FD39006F2F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9TC87VC89Y;
+				INFOPLIST_FILE = QuandooAssignmentKumar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krish.QuandooAssignmentKumar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6B0481111F28FD39006F2F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9TC87VC89Y;
+				INFOPLIST_FILE = QuandooAssignmentKumarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krish.QuandooAssignmentKumarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuandooAssignmentKumar.app/QuandooAssignmentKumar";
+			};
+			name = Debug;
+		};
+		6B0481121F28FD39006F2F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9TC87VC89Y;
+				INFOPLIST_FILE = QuandooAssignmentKumarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krish.QuandooAssignmentKumarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuandooAssignmentKumar.app/QuandooAssignmentKumar";
+			};
+			name = Release;
+		};
+		6B0481141F28FD39006F2F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9TC87VC89Y;
+				INFOPLIST_FILE = QuandooAssignmentKumarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krish.QuandooAssignmentKumarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QuandooAssignmentKumar;
+			};
+			name = Debug;
+		};
+		6B0481151F28FD39006F2F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9TC87VC89Y;
+				INFOPLIST_FILE = QuandooAssignmentKumarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krish.QuandooAssignmentKumarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QuandooAssignmentKumar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B0480E01F28FD39006F2F96 /* Build configuration list for PBXProject "QuandooAssignmentKumar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B04810B1F28FD39006F2F96 /* Debug */,
+				6B04810C1F28FD39006F2F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B04810D1F28FD39006F2F96 /* Build configuration list for PBXNativeTarget "QuandooAssignmentKumar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B04810E1F28FD39006F2F96 /* Debug */,
+				6B04810F1F28FD39006F2F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B0481101F28FD39006F2F96 /* Build configuration list for PBXNativeTarget "QuandooAssignmentKumarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0481111F28FD39006F2F96 /* Debug */,
+				6B0481121F28FD39006F2F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B0481131F28FD39006F2F96 /* Build configuration list for PBXNativeTarget "QuandooAssignmentKumarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0481141F28FD39006F2F96 /* Debug */,
+				6B0481151F28FD39006F2F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B0480DD1F28FD39006F2F96 /* Project object */;
+}
