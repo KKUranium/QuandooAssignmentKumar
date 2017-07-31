@@ -11,11 +11,13 @@ import Foundation
 struct Constants {
     struct Url {
         static let GET_USERS = "https://jsonplaceholder.typicode.com/users";
+        static let GET_USERS_POSTS = "https://jsonplaceholder.typicode.com/posts";
     }
     struct UrlParams
     {
         struct Users
         {
+            static let ID           = "id"
             static let NAME         = "name"
             static let USERNAME     = "username"
             static let EMAIL        = "email"
@@ -29,17 +31,11 @@ struct Constants {
                 static let CITY     = "city"
             }
         }
-        struct Image
+        struct UserPost
         {
-            static let FARM         = "farm"
-            static let ID           = "id"
-            static let IS_FAMILY    = "isfamily"
-            static let IS_FRIEND    = "isfriend"
-            static let IS_PUBLIC    = "ispublic"
-            static let OWNER        = "owner"
-            static let SECRET       = "secret"
-            static let SERVER       = "server"
-            static let TITLE        = "title"
+            static let TITLE         = "title"
+            static let BODY          = "body"
+            static let ID            = "userId"
         }
     }
 }

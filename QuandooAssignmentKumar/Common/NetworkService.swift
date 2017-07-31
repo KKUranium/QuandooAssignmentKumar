@@ -30,9 +30,18 @@ class NetworkService{
     func prepareUrlWithQueryParams(urlString : String, params : NSDictionary) -> String
     {
         var tempString = urlString;
+        var index = 0;
         for (key, value) in params
         {
-            tempString += "&\(key)=\(value)"
+            if(index == 0)
+            {
+                tempString += "?\(key)=\(value)"
+            }
+            else
+            {
+                tempString += "&\(key)=\(value)"
+            }
+            index = index + 1;
         }
         
         return tempString;

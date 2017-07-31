@@ -19,6 +19,12 @@ class UserListPresenter: NSObject {
         //Ask interactor for user list
         interactor?.getUserList()
     }
+    
+    func showPostList(view : UserListViewController, withUserID userID : String, andUserName name: String)
+    {
+        wireFrame?.pushPostScreen(from: view, withUserID: userID, andUserName: name);
+    }
+
 }
 
 extension UserListPresenter : UserListInteractorOutput

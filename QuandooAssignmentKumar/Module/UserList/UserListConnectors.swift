@@ -24,5 +24,5 @@ protocol UserListWireFrameProtocol {
     static func createUserListModule() -> UIViewController
     
     // PRESENTER -> WIREFRAME
-    //func pushPostScreen(from view: UserListViewController);
+    func pushPostScreen(from view: UserListViewController, withUserID userID: String, andUserName name: String);
 }

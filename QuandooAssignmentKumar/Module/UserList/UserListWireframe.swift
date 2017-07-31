@@ -33,11 +33,10 @@ class UserListWireFrame: UserListWireFrameProtocol {
         return UIStoryboard(name: "Main", bundle: Bundle.main)
     }
     
-    func pushPostScreen(from view: UserListViewController, withText text: String)
+    func pushPostScreen(from view: UserListViewController, withUserID userID: String, andUserName name: String)
     {
-//        let imageListView : ImageListView = ImageListWireFrame.createImageListModule(searchKey: text) as! ImageListView;
-//        imageListView.presenter?.searchDelegate = view;
-//        view.navigationController?.pushViewController(imageListView, animated: true)
+        let userPostListView : UserPostListViewController = UserPostListWireFrame.createUserPostListModule(userID: userID, name: name) as! UserPostListViewController
+        view.navigationController?.pushViewController(userPostListView, animated: true)
     }
     
 }

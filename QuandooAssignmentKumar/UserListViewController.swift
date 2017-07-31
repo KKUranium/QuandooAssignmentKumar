@@ -57,6 +57,22 @@ extension UserListViewController : UITableViewDataSource
     }
 }
 
+extension UserListViewController : UITableViewDelegate
+{
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let id = self.dataSource[indexPath.row].id
+        {
+            //Navigate to User posts with user ID
+            presenter?.showPostList(view: self, withUserID: id, andUserName: self.dataSource[indexPath.row].name!)
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        return UIView(frame: CGRect.zero)
+    }
+}
+
+
 extension UserListViewController : UserListPresenterOutput
 {
     func updateUserList(userArray: [UserListModel])
@@ -70,6 +86,10 @@ extension UserListViewController : UserListPresenterOutput
     
     func didFailToFetchUserList(message  :String)
     {
+        DispatchQueue.main.async {
+            CustomUIComponent.showAlert("", message: message);
+        }
+
         print(message);
     }
 }

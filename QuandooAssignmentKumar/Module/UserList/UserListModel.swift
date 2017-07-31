@@ -9,6 +9,7 @@
 import Foundation
 
 class UserListModel {
+    var id : String?
     var name : String?
     var username: String?
     var email : String?
@@ -16,6 +17,11 @@ class UserListModel {
     
     init(userObject : [String: AnyObject]?)
     {
+        if let id = userObject?[Constants.UrlParams.Users.ID] as? Int
+        {
+            self.id = "\(id)";
+        }
+
         if let name = userObject?[Constants.UrlParams.Users.NAME] as? String
         {
             self.name = name
